@@ -1,0 +1,132 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #1a1a1a;
+    line-height: 1.5;
+}
+
+/* Header */
+header#portada {
+    background-color: #5e95e1;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header#portada h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+header#portada p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+header#portada .img-portada {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+header#portada .btn {
+    display: inline-block;
+    background-color: #ff6b61;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Sección Problema */
+section#problema {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contenido-problema {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tarjeta-problema {
+    background-color: #e7f0ff;
+    border-radius: 12px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.tarjeta-problema img.img-problema {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* Consejos */
+section#consejos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.consejos-img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Recursos */
+section#recursos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.img-recursos {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.links-recursos {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.links-recursos li {
+    margin-bottom: 5px;
+}
+
+.links-recursos li a {
+    color: #5e95e1;
+    text-decoration: none;
+}
+
+.links-recursos li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer#cierre {
+    background-color: #ff6b61;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+footer#cierre img.img-cierre {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+}
